@@ -16,5 +16,3 @@
 python3 -m pip install -r /Users/yuemingli/Desktop/workspace/language_RL/grid_path_planning/requirements.txt
 python3 /Users/yuemingli/Desktop/workspace/language_RL/grid_path_planning/train.py
 ```
-
-说明：示例为教学用途，设计了基础奖励：到达目标+100，碰撞-10，每步-0.1，最大步数限制。你可以修改地图、奖励结构或替换为更先进的算法（PPO/A2C）以获得更好效果。
