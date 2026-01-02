@@ -1,6 +1,3 @@
-# DQN Grid Path Planning 示例
-
-这是一个最小可运行的深度强化学习（DQN）示例，用于在格子地图上做路径规划。
 
 文件说明：
 
@@ -17,6 +14,6 @@
 
 ```bash
 # 建议在虚拟环境中运行
-python3 -m pip install -r /Users/yuemingli/Desktop/workspace/language_RL/grid_path_planning/requirements.txt
-python3 /Users/yuemingli/Desktop/workspace/language_RL/grid_path_planning/train.py
+python3 -m pip install -r ./grid_path_planning/requirements.txt
+python3 ./grid_path_planning/train.py
 ```
